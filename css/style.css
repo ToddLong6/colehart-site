@@ -859,6 +859,9 @@ footer {
 
 .gold-label { color: var(--gold2) !important; }
 
+/* Keep anchored sections clear of the fixed nav */
+section[id], div[id] { scroll-margin-top: 84px; }
+
 /* Simple three-up card grid reused across new pages */
 .trio-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .trio-card {
