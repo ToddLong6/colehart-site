@@ -1,39 +1,58 @@
-# ColeHart Main-site
+# ColeHart Enterprises — Main Site
 
-`opticheck-site` is the public marketing website for ColeHart Enterprises and its OptiCheck solution.
+`opticheck-site` is the public marketing website for **ColeHart Enterprises LLC** —
+*Technology. Talent. Program Support.*
 
 ## What it is
 
-This repo contains a static multi-page website built with:
+A static, multi-page website built with:
 
-- HTML (`index.html` and section pages in `about/`, `services/`, `government/`, and `solutions/`)
+- HTML — top-level pages (`index.html`, `services.html`, `government.html`,
+  `commercial.html`, `about.html`, `contact.html`, `insights.html`,
+  `privacy.html`, `terms.html`) plus the printable capability statement in
+  `government/capability-print.html`
 - Shared CSS (`css/style.css`)
-- Static assets (`images/`, `robots.txt`, `sitemap.xml`, and supporting files)
+- Static assets (`images/`, `robots.txt`, `sitemap.xml`, `CNAME`, and a
+  downloadable PDF guide)
+
+No build step, framework, or bundler.
 
 ## What it does
 
-The site communicates ColeHart's offerings and routes visitors to key actions:
+The site positions ColeHart as a veteran-owned technology and professional
+services company serving three audiences — government agencies, prime
+contractors, and commercial organizations — across three service areas:
 
-- Presents company positioning for infrastructure, technology, and operations support
-- Highlights service lines and government contracting capability information
-- Showcases OptiCheck in `solutions/opticheck.html`
-- Sends users to the live OptiCheck app: `https://opticheck.colehartenterprises.com/app`
-- Provides contact and lead-capture flows (including licensing interest notification)
+1. **Technology Services** — IT infrastructure, systems, networks, data centers,
+   Microsoft 365 / SharePoint, cloud, automation, and technical documentation
+2. **Data & Program Services** — analytics, dashboards, reporting, business
+   analysis, and project/program coordination
+3. **Workforce Solutions** — qualified technical and professional personnel for
+   project, contract, and subcontract requirements
 
-## Main OptiCheck Page
+It also presents three direct commercial solutions (Dashboard & Reporting Setup,
+Technical Documentation Package, Contract Technical Resource) and a government /
+prime-contractor capability page with business credentials (Veteran-Owned,
+SAM.gov Registered & Active, UEI `QMEXHNTJYJR3`, CAGE `1CQK6`).
 
-`solutions/opticheck.html` explains OptiCheck as an AI-powered operational analysis tool that:
+Contact and lead-capture use Formspree (`formspree.io/f/mgorykdv`) with an
+EmailJS auto-reply.
 
-- Collects operational context through structured input
-- Scores process maturity across key operational categories
-- Identifies bottlenecks and systems integration gaps
-- Produces prioritized findings and actionable recommendations in minutes
+## Internal tools
 
-## Local Preview
+OptiCheck and OpticBid are internal tools ColeHart maintains for its own
+operations and business development. They are referenced only in a small
+"Internal Technology / Tools" note on the Services page and are not part of the
+company's primary positioning.
 
-Because this is a static site, you can open `index.html` directly in a browser or serve it locally with any static server.
+## Deployment
 
-Example (Node):
+Served by **GitHub Pages** from the repository root. `CNAME` points the site at
+`colehartenterprises.com`. Pushing to `main` publishes.
+
+## Local preview
+
+Open `index.html` directly in a browser, or serve the folder statically:
 
 ```bash
 npx serve .

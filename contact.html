@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — ColeHart Enterprises</title>
-<meta name="description" content="Connect with ColeHart Enterprises. Consulting inquiries, government contracting, teaming opportunities, and OptiCheck support.">
+<title>Contact ColeHart Enterprises</title>
+<meta name="description" content="Contact ColeHart Enterprises about technology services, data and program support, staffing, government subcontracting, and prime-contractor partnerships.">
 <link rel="icon" type="image/png" href="images/logo-icon.png">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NYGXGHXY8R"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYGXGHXY8R');</script>
@@ -19,7 +19,7 @@
 <!-- ── NAV ── -->
 <nav>
   <a href="index.html" class="nav-logo">
-    <img src="images/logo-icon.png" alt="ColeHart" class="nav-logo-img">
+    <img src="images/logo-icon.png" alt="ColeHart Enterprises" class="nav-logo-img">
     <div>
       <div class="nav-logo-text">ColeHart Enterprises</div>
       <span class="nav-logo-sub">Veteran-Owned</span>
@@ -27,32 +27,32 @@
   </a>
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
-    <li><a href="services/packages.html">Service Packages</a></li>
-    <li><a href="government/capability.html">Government Capabilities</a></li>
-    <li><a href="solutions/products.html">Products</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="government.html">Government</a></li>
+    <li><a href="commercial.html">Commercial</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="contact.html" class="active">Contact</a></li>
   </ul>
-  <a href="contact.html" class="nav-cta">Get Started →</a>
+  <a href="contact.html?topic=partner" class="nav-cta">Partner With Us →</a>
   <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
 </nav>
 
 <div class="mobile-nav" id="mobile-nav">
   <a href="index.html" onclick="closeMenu()">Home</a>
-  <a href="services/packages.html" onclick="closeMenu()">Service Packages</a>
-  <a href="government/capability.html" onclick="closeMenu()">Government Capabilities</a>
-  <a href="solutions/products.html" onclick="closeMenu()">Products</a>
+  <a href="services.html" onclick="closeMenu()">Services</a>
+  <a href="government.html" onclick="closeMenu()">Government</a>
+  <a href="commercial.html" onclick="closeMenu()">Commercial</a>
   <a href="about.html" onclick="closeMenu()">About</a>
   <a href="contact.html" onclick="closeMenu()">Contact</a>
-  <a href="contact.html" class="mobile-nav-cta" onclick="closeMenu()">Get Started →</a>
+  <a href="contact.html?topic=partner" class="mobile-nav-cta" onclick="closeMenu()">Partner With Us →</a>
 </div>
 
 <!-- ── PAGE HERO ── -->
 <section class="page-hero">
   <div class="page-hero-inner">
     <div class="page-hero-eyebrow">Get in Touch</div>
-    <h1>Let's start a conversation.</h1>
-    <p class="page-hero-sub">Whether you're exploring a consulting engagement, a teaming opportunity, or have questions about OptiCheck, we're here to help respond to all inquiries within 1–2 business days.</p>
+    <h1>Let's talk about your requirement.</h1>
+    <p class="page-hero-sub">Technology support, data and program support, staffing, government subcontracting, or a prime-contractor partnership — we respond to all inquiries within 1–2 business days.</p>
   </div>
 </section>
 
@@ -63,8 +63,6 @@
     <h2 class="sec-h2" style="margin-bottom:8px;">Tell us about your needs.</h2>
     <p style="font-size:14px;color:var(--text2);margin-bottom:0;">Select an inquiry type below so we can route your message to the right person.</p>
 
-    <!-- FORMSPREE: go to formspree.io, create a free account, create a new form,
-         then replace YOUR_FORM_ID below with your actual form ID (e.g. xyzabcde) -->
     <form class="form" id="contact-form" action="https://formspree.io/f/mgorykdv" method="POST">
 
       <div class="form-row">
@@ -102,14 +100,13 @@
           <label class="form-label" for="inquiry-type">Inquiry Type</label>
           <select class="form-select" id="inquiry-type" name="inquiry_type" required>
             <option value="">Select one…</option>
-            <option value="Records Cleanup">Records Cleanup</option>
-            <option value="Workflow Cleanup">Workflow Cleanup</option>
-            <option value="Project Admin Support">Project Admin Support</option>
-            <option value="Data Cleanup &amp; Reporting">Data Cleanup &amp; Reporting</option>
-            <option value="Digital Forms / Portal Support">Digital Forms / Portal Support</option>
-            <option value="Government / Teaming Opportunity">Government / Teaming Opportunity</option>
-            <option value="Opticbid">Opticbid</option>
-            <option value="OptiCheck">OptiCheck</option>
+            <option value="Technology Services">Technology Services</option>
+            <option value="Data &amp; Program Services">Data &amp; Program Services</option>
+            <option value="Workforce Solutions / Staffing">Workforce Solutions / Staffing</option>
+            <option value="Dashboard &amp; Reporting Setup">Dashboard &amp; Reporting Setup</option>
+            <option value="Technical Documentation Package">Technical Documentation Package</option>
+            <option value="Contract Technical Resource">Contract Technical Resource</option>
+            <option value="Government / Prime Contractor Partnership">Government / Prime Contractor Partnership</option>
             <option value="General Inquiry">General Inquiry</option>
           </select>
         </div>
@@ -117,7 +114,7 @@
 
       <div class="form-group">
         <label class="form-label" for="message">Message</label>
-        <textarea class="form-textarea" id="message" name="message" placeholder="Tell us about your organization and what you're looking for…" required></textarea>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Tell us about your organization, the requirement, and any relevant scope, codes, or roles…" required></textarea>
       </div>
 
       <div class="form-group">
@@ -125,7 +122,7 @@
         <input class="form-input" type="text" id="how-heard" name="how_heard" placeholder="LinkedIn, referral, web search…">
       </div>
 
-      <!-- Formspree honeypot — keeps spam bots out, leave this here -->
+      <!-- Formspree honeypot -->
       <input type="text" name="_gotcha" style="display:none">
 
       <button type="submit" class="form-submit" id="submit-btn">Send Message →</button>
@@ -149,42 +146,63 @@
       </div>
       <div class="contact-card">
         <div class="contact-lbl">Website</div>
-        <div class="contact-val"><a href="https://www.colehartenterprises.com" target="_blank">www.colehartenterprises.com</a></div>
+        <div class="contact-val"><a href="https://www.colehartenterprises.com" target="_blank" rel="noopener">www.colehartenterprises.com</a></div>
       </div>
       <div class="contact-card">
         <div class="contact-lbl">LinkedIn</div>
-        <div class="contact-val"><a href="https://www.linkedin.com/company/colehart-enterprises-llc" target="_blank">ColeHart Enterprises LLC</a></div>
+        <div class="contact-val"><a href="https://www.linkedin.com/company/colehart-enterprises-llc" target="_blank" rel="noopener">ColeHart Enterprises LLC</a></div>
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- ── TEAMING CTA ── -->
+<!-- ── PARTNER CTA ── -->
 <section class="content-section dark">
   <div class="content-section-inner" style="max-width:640px;text-align:center;">
-    <span class="sec-label" style="color:var(--accent3);">Prime Contractors</span>
-    <h2 class="sec-h2" style="color:white;margin-bottom:16px;">Looking to add veteran-owned capability to your team?</h2>
-    <p style="font-size:15px;font-weight:300;color:rgba(255,255,255,0.5);line-height:1.75;margin-bottom:0;">Select <strong style="color:rgba(255,255,255,0.7);">"Teaming Opportunity"</strong> in the inquiry dropdown above or email us directly at <a href="mailto:info@colehartenterprises.com" style="color:var(--accent3);">info@colehartenterprises.com</a>.</p>
+    <span class="sec-label gold-label">Prime Contractors</span>
+    <h2 class="sec-h2" style="color:white;margin-bottom:16px;">Adding a small-business partner to your team?</h2>
+    <p style="font-size:15px;font-weight:300;color:rgba(255,255,255,0.55);line-height:1.75;margin-bottom:0;">Select <strong style="color:rgba(255,255,255,0.8);">"Government / Prime Contractor Partnership"</strong> in the inquiry dropdown above, or email us directly at <a href="mailto:info@colehartenterprises.com" style="color:var(--gold2);">info@colehartenterprises.com</a>.</p>
   </div>
 </section>
 
 <!-- ── FOOTER ── -->
 <footer>
-  <div class="footer-copy">© 2026 ColeHart Enterprises LLC</div>
+  <div class="footer-copy">© 2026 ColeHart Enterprises LLC · Veteran-Owned · SAM.gov Registered</div>
   <div class="footer-links">
+    <a href="services.html">Services</a>
+    <a href="government.html">Government</a>
+    <a href="commercial.html">Commercial</a>
     <a href="about.html">About</a>
-    <a href="services/packages.html">Service Packages</a>
-    <a href="government/capability.html">Government</a>
-    <a href="solutions/products.html">Products</a>
     <a href="insights.html">Insights</a>
     <a href="contact.html">Contact</a>
-    <a href="privacy.html">Privacy Policy</a>
+    <a href="privacy.html">Privacy</a>
     <a href="terms.html">Terms</a>
   </div>
 </footer>
 
 <script>
+  // Pre-select inquiry type from ?topic= query string
+  (function() {
+    var map = {
+      partner: 'Government / Prime Contractor Partnership',
+      technology: 'Technology Services',
+      'data-program': 'Data & Program Services',
+      workforce: 'Workforce Solutions / Staffing',
+      dashboards: 'Dashboard & Reporting Setup',
+      documentation: 'Technical Documentation Package',
+      'contract-resource': 'Contract Technical Resource'
+    };
+    var params = new URLSearchParams(window.location.search);
+    var topic = params.get('topic');
+    var target = map[topic];
+    if (!target) return;
+    var sel = document.getElementById('inquiry-type');
+    for (var i = 0; i < sel.options.length; i++) {
+      if (sel.options[i].value === target) { sel.selectedIndex = i; break; }
+    }
+  })();
+
   // Formspree AJAX submission — shows success state without page reload
   var form = document.getElementById('contact-form');
   var btn  = document.getElementById('submit-btn');
@@ -202,7 +220,6 @@
       if (res.ok) {
         form.style.display = 'none';
         document.getElementById('contact-success').style.display = 'block';
-        // Auto-reply
         emailjs.send('service_lg3tx6u', 'template_fpm2t8r', {
           to_email: form.querySelector('[name="email"]').value,
           to_name:  form.querySelector('[name="name"]').value || 'there',
@@ -222,7 +239,7 @@
   function toggleMenu(){document.getElementById('mobile-nav').classList.toggle('open')}
   function closeMenu(){document.getElementById('mobile-nav').classList.remove('open')}
   document.addEventListener('click',function(e){
-    const mn=document.getElementById('mobile-nav');const hb=document.querySelector('.hamburger');
+    var mn=document.getElementById('mobile-nav');var hb=document.querySelector('.hamburger');
     if(mn.classList.contains('open')&&!mn.contains(e.target)&&!hb.contains(e.target)){closeMenu()}
   })
 </script>

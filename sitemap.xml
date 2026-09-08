@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://colehartenterprises.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://colehartenterprises.com/about/our-story.html</loc><priority>0.8</priority></url>
-  <url><loc>https://colehartenterprises.com/about/leadership.html</loc><priority>0.8</priority></url>
-  <url><loc>https://colehartenterprises.com/about/values.html</loc><priority>0.8</priority></url>
-  <url><loc>https://colehartenterprises.com/services/consulting.html</loc><priority>0.9</priority></url>
-  <url><loc>https://colehartenterprises.com/services/technology.html</loc><priority>0.9</priority></url>
-  <url><loc>https://colehartenterprises.com/services/academy.html</loc><priority>0.8</priority></url>
-  <url><loc>https://colehartenterprises.com/government/capability.html</loc><priority>0.9</priority></url>
-  <url><loc>https://colehartenterprises.com/government/sdvosb.html</loc><priority>0.8</priority></url>
-  <url><loc>https://colehartenterprises.com/government/naics.html</loc><priority>0.7</priority></url>
-  <url><loc>https://colehartenterprises.com/solutions/opticheck.html</loc><priority>0.9</priority></url>
-  <url><loc>https://colehartenterprises.com/insights.html</loc><priority>0.7</priority></url>
+  <url><loc>https://colehartenterprises.com/services.html</loc><priority>0.9</priority></url>
+  <url><loc>https://colehartenterprises.com/government.html</loc><priority>0.9</priority></url>
+  <url><loc>https://colehartenterprises.com/commercial.html</loc><priority>0.9</priority></url>
+  <url><loc>https://colehartenterprises.com/about.html</loc><priority>0.7</priority></url>
   <url><loc>https://colehartenterprises.com/contact.html</loc><priority>0.8</priority></url>
+  <url><loc>https://colehartenterprises.com/government/capability-print.html</loc><priority>0.6</priority></url>
+  <url><loc>https://colehartenterprises.com/insights.html</loc><priority>0.5</priority></url>
   <url><loc>https://colehartenterprises.com/privacy.html</loc><priority>0.3</priority></url>
   <url><loc>https://colehartenterprises.com/terms.html</loc><priority>0.3</priority></url>
 </urlset>
